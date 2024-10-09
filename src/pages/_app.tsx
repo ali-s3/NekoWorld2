@@ -7,7 +7,9 @@ function MyApp({ Component, pageProps, session }) {
   return ( 
     <ThemeProvider attribute="class">
       <SessionProvider session={session}>
+        
         <Component {...pageProps} />
+
         <Analytics />
       </SessionProvider>
     </ThemeProvider>
