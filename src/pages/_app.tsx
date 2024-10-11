@@ -3,12 +3,14 @@ import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps, session }) {
+// app
+function MyApp({ Component, pageProps, session }) { 
+
   return ( 
-    <ThemeProvider attribute="class">
-      <SessionProvider session={session}>
+    <ThemeProvider attribute="class"> 
+      <SessionProvider session={session}> 
         
-        <Component {...pageProps} />
+        <Component {...pageProps} /> 
 
         <Analytics />
       </SessionProvider>
