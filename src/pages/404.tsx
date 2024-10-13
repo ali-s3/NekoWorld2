@@ -47,7 +47,8 @@ export default function PageNotFound() {
                   404
                 </h2>
               </div>
-              <p>Хм.. мы искали везде но не нашли</p>
+              <p>Хм.. мы искали везде но не нашли,  что вы ищете.</p>
+
               <div className="mt-5 grid gap-3 md:grid-flow-col">
                 <Link
                   className="ring-black/15 dark:ring-white/15 cz-color-16119028 cz-color-4603711 cz-color-15460325 grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-zinc-100 px-6 py-3 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 dark:active:bg-zinc-500"
