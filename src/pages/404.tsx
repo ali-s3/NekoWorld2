@@ -47,7 +47,7 @@ export default function PageNotFound() {
                   404
                 </h2>
               </div>
-              <p>Хм.. мы искали везде но не нашли,  что вы ищете...</p>
+              <p>Хм.. мы искали везде но не нашли,  что вы ищете....</p>
 
               <div className="mt-5 grid gap-3 md:grid-flow-col">
                 <Link
@@ -64,6 +64,7 @@ export default function PageNotFound() {
                     aria-hidden="true"
                     className="h-5 w-5"
                   >
+                    
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"

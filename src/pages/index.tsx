@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Главная · NekoWorlds</title>
+        <title>Главная · NekoWorldsssss</title>
         <meta
           name="description"
           content="Ванильный сервер для каждого пространство где уютно и лампово"
