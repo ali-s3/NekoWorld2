@@ -9,14 +9,14 @@ const handleCopy = () => {
   navigator.clipboard.writeText(text);
 };
 
-export default function Home() {
+export default function Home() { 
   return (
     <>
       <Head>
-        <title>Главная · NekoWorldsssss</title>
+        <title>Главная · NekoWorldsssss</title> 
         <meta
-          name="description"
-          content="Ванильный сервер для каждого пространство где уютно и лампово"
+          name="description" 
+          content="Ванильный сервер для каждого пространство где уютно и лампово" 
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />

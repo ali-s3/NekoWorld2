@@ -44,10 +44,10 @@ export default function PageNotFound() {
                   loading="lazy"
                 />
                 <h2 className="font-manrope text-center text-3xl font-extrabold tracking-tight">
-                  404
+                  404:)
                 </h2>
               </div>
-              <p>Хм.. мы искали везде но не нашли,  что вы ищете....</p>
+              <p>Хм.. мы искали везде но не нашли,  что вы ищете......</p>
 
               <div className="mt-5 grid gap-3 md:grid-flow-col">
                 <Link
